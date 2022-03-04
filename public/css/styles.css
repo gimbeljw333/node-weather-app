@@ -1,0 +1,386 @@
+html {
+    height: 100%;
+    width: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 1.2em;
+    width: 100%;
+}
+
+::selection {
+    background: rgba(0, 0, 0, 0.15);
+}
+::-moz-selection {
+    background: rgba(0, 0, 0, 0.15);
+}
+img::selection {
+    background: transparent;
+}
+img::-moz-selection {
+    background: transparent;
+}
+::-webkit-input-placeholder {
+  color: #aaa;
+}
+::-moz-placeholder {
+  color: #aaa;
+}
+:-ms-input-placeholder {
+  color: #aaa;
+}
+:-moz-placeholder {
+  color: #aaa;
+}
+
+* {
+    box-sizing: border-box;
+}
+a {
+    outline: none;
+}
+img, embed, object {
+    max-width: 100%;
+    width: 100%;
+}
+.floatclear {
+    clear: both;
+}
+
+
+h1 {
+    font-size: 3em;
+    color:  #ffc400;
+    line-height: 1;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 1.05em;
+    color:  #00b1ff;
+    line-height: 1;
+}
+
+h3 {
+    font-size: 1.2em;
+    color:  #ffc400;
+    line-height: 1;
+}
+
+p {
+    padding: 10px 16px;
+    line-height: 1.4;
+}
+
+
+
+
+header {
+    width: 100%;
+    max-width: 100%;
+    background-color: hotpink;
+    color: #fff;
+    height: 70px;
+}
+
+nav {
+    width: 100%;
+    max-width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #fff;
+    background-color: transparent;
+    border-right: 1px solid #ffacd5;
+    font-size: 17px;
+    font-weight: 300;
+    display: inline-block;
+    height: 70px;
+    width: 32.5%;
+    max-width: 256px;
+    padding: 30px 10px;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffdada;
+    background-color: deeppink;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+
+main {
+    min-height: calc(100vh - 135px);
+    padding: 20px;
+    font-size: 110%;
+}
+main p {
+    margin: 7px 0;
+}
+
+main span {
+    display: inline-block;
+    color: #00d6e8;
+}
+
+main a {
+    color: hotpink;
+    text-decoration: underline;
+    margin-left: 5px;
+    font-size: 110%;
+}
+ 
+main a:hover {
+    color: #ff94c9;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    color: hotpink;
+    background-color: transparent;
+    border: 1px solid hotpink;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 300;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 5px;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+button:hover {
+    color: #fff;
+    background-color: hotpink;
+    border: 1px solid hotpink;
+}
+
+
+main .img-fluid {
+    width: 100%;
+    max-width: 770px;
+    padding: 10px;
+}
+
+
+main .input {
+    padding: 10px;
+    border: 1px solid #beeaae;
+    border-radius: 3px;
+    width: 100%;
+    max-width: 380px;
+    outline: none;
+}
+
+
+
+footer {
+    width: 100%;
+    max-width: 100%;
+    background-color: hotpink;
+    color: #fff;
+    padding: 16px;
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+-------------- MEDIA QUERIES ------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------  */
+@media only screen and (min-width: 360px) {
+ 
+    
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+}
+/* --------------------------------------------------------------------------------------------------------  */
+@media only screen and (min-width: 480px) {
+ 
+    
+ 
+    
+    
+    
+    
+    
+    
+}
+/* ------------------------------------------------------------------------------------------------------  */
+@media only screen and (min-width: 568px) {
+ 
+    
+ 
+    
+    
+    
+
+    
+    
+}
+/* ------------------------------------------------------------------------------------------------------  */
+@media only screen and (min-width: 768px) {
+ 
+    
+    
+    
+  
+
+    
+    
+}
+/* ------------------------------------------------------------------------------------------------------  */
+@media only screen and (min-width: 1024px) {
+ 
+    
+    
+    
+    
+  
+    
+    
+    
+}
+/* ------------------------------------------------------------------------------------------------------  */
+@media only screen and (min-width: 1280px) {
+ 
+    
+    
+    
+    
+    
+
+    
+    
+}
+/* ------------------------------------------------------------------------------------------------------  */
+@media only screen and (min-width: 1440px) {
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+}
+/* ------------------------------------------------------------------------------------------------------  */
+@media only screen and (min-width: 1600px) {
+ 
+    
+ 
+    
+    
+    
+    
+    
+    
+}
+/* ------------------------------------------------------------------------------------------------------  */
+@media only screen and (min-width: 1920px) {
+ 
+    
+    
+    
+    
+  
+
+    
+    
+    
+}
+/* --------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+--------- MEDIA QUERIES -------- LANDSACAPE ---------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------  */
+/*-----------iPhone4--------------*/
+@media(min-width:480px) and (orientation: landscape)  {
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+/*-----------iPhone5--------------*/
+@media(min-width:568px) and (orientation: landscape)  {
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+/*-----------iPad--------------*/
+@media(min-width:1024px) and (orientation: landscape)  {
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+/* Printers  -----------------------------------------------------------------------  */
+/* Printers  -----------------------------------------------------------------------  */
+/* Printers  -----------------------------------------------------------------------  */
+/* Printers  -----------------------------------------------------------------------  */
+/* Printers  -----------------------------------------------------------------------  */
+/* Printers  -----------------------------------------------------------------------  */
+/* Printers  -----------------------------------------------------------------------  */
+@media only print {
+    
+    
+    
+    
+}
